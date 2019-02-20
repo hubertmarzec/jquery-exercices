@@ -6,10 +6,10 @@ $ server src
 
 ## resources
 
-https://learn.jquery.com/plugins/basic-plugin-creation/
-https://learn.jquery.com/plugins/advanced-plugin-concepts/
+https://lokeshdhakar.com/projects/lightbox2/
 
 ## task
-- [ ] plugin margoGallery ma otrzymywać opcje (options), z opcją itemCss o domyślnej wartości 'gallery__image'
-- [ ] każdy element na którym odpalimy $('img').margoGallery() ma mieć dodaną klase css o options.itemCss
-- [ ] ostylować .gallery__image, np. dodać cursor, jakiś efekt po najechaniu
+- [ ] bierzemy wersje plugin z poprzedniego zadania
+- [ ] w momencie odpalenia dodoajmey pusty `div` do <body> z clasą css = options.backdropClass (domyślnie backdrop); domyślnie ten div jest niewidoczny, referenje zapisumy jako $backdrop
+- [ ] po klinięciu wyświetlamy duze zdjęcie (bierzemy pod uwage rwd) na całym ekranie, w tle mamy czarne, półprzezroczyste tło (wykorzystujemy do tego $backdrop)
+- [ ] jeżeli img ma atrybut data-url to wyświetlamy to zdjęcie, w przeciwnym przypadku wyświetlam to zdjęcie z src 
