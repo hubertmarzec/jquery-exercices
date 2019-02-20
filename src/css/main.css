@@ -1,0 +1,7 @@
+.gallery__image {
+    cursor: pointer;
+}
+
+.gallery__image:hover {
+    opacity: 0.8;
+}
