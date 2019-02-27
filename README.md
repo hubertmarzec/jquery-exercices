@@ -6,10 +6,10 @@ $ server src
 
 ## resources
 
-https://lokeshdhakar.com/projects/lightbox2/
+https://www.w3schools.com/tags/tag_summary.asp
 
 ## task
-- [ ] bierzemy wersje plugin z poprzedniego zadania
-- [ ] dodajemy obsługę strzałek lewo prawo, gdy jesteśmy w trybie podglądu zdjęcia
-- [ ] strzałka w prawo, wyświetla kolejne zdjęcie z galerii, strzałka w lewo poprzednie'
-- [ ] gdy nie ma więcej zdjęc nie zostajemy na obecnym
+- [ ] na start wszystkie pozycje są zwinięte
+- [ ] klikajać w .accordion__summary rozwija się zawartość pod nim
+- [ ] może być conajwyżej 1 otwarta sekcja
+- [ ] należy stowrzyć plugin jquery, który zapina się na $('.accordion');
