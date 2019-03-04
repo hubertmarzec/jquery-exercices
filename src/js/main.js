@@ -1,3 +1,5 @@
 $(function () {
-  console.log('put code here');
-});
+
+  $(".accordion").pSlide();
+
+})
