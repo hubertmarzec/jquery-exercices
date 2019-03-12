@@ -17,3 +17,8 @@ body {
   margin-right: 1em;
   width: 6em;
 }
+
+
+.field-collection__field {
+  margin-bottom: 0.5em;
+}
