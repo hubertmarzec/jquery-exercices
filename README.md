@@ -21,7 +21,7 @@ const portfolio = [{
 }]
 
 ## task
-- [ ] stworzyć plugin jquery, który odpalany na dowolnym polu formularza pozwoli traktować go jako kolekcje (można dodać,usunać,edytować kolejne pozycje) (patrz example.png)
+- [ ] stworzyć plugin jquery, który odpalany na dowolnym polu formularza pozwoli traktować go jako kolekcje ('.collection') (można dodać,usunać,edytować kolejne pozycje) (patrz example.png)
 ## cel
 - generowanie kodu html
 - manipulacja kodem html
